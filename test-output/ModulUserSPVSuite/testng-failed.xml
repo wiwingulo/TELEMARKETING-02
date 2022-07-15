@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ModulUserSPVSuite]">
+  <test thread-count="5" name="User(failed)">
+    <classes>
+      <class name="com.telemarket.test.UserUpdateDataTest">
+        <methods>
+          <include name="updateAgentFullNameNull"/>
+          <include name="updateAgentUserNotAct"/>
+          <include name="updateAgentPhoneSpecialChar"/>
+          <include name="updateAgentPhoneString"/>
+          <include name="updateAgentExtensionString"/>
+          <include name="updateAgentSpvNull"/>
+          <include name="updateAgentUsernameNull"/>
+          <include name="updateAgentPhoneNull"/>
+          <include name="updateAgentExtensionNull"/>
+          <include name="updateAgentSameUsername"/>
+          <include name="init"/>
+          <include name="updateAgentExtensionSameWithOther"/>
+          <include name="updateAgentExtensionSpecialChar"/>
+          <include name="updateAgentUsernameSpecialChar"/>
+          <include name="updateAgentPrivillegesNull"/>
+          <include name="updateAgentUsernameOnlyNumber"/>
+          <include name="updateAgentUserAct"/>
+        </methods>
+      </class> <!-- com.telemarket.test.UserUpdateDataTest -->
+      <class name="com.telemarket.test.UserAddAgentTest">
+        <methods>
+          <include name="addAgentExtensionString"/>
+          <include name="addAgentSameExtension"/>
+          <include name="addAgentPhoneString"/>
+          <include name="addAgentSpvNull"/>
+          <include name="addAgentUsernameSpecialChar"/>
+          <include name="init"/>
+          <include name="addAgentExtensionSpecialChar"/>
+          <include name="addAgentPhoneNull"/>
+          <include name="addAgentExtensionNull"/>
+          <include name="addAgentPhoneSpecialChar"/>
+          <include name="addAgentUsernameNull"/>
+          <include name="addAgentFullNameNull"/>
+          <include name="addAgentUsernameOnlyNumber"/>
+          <include name="addAgentPrivillegesNameNull"/>
+        </methods>
+      </class> <!-- com.telemarket.test.UserAddAgentTest -->
+      <class name="com.telemarket.test.UserResetPasswordTest">
+        <methods>
+          <include name="init"/>
+          <include name="resetPassNullUser"/>
+        </methods>
+      </class> <!-- com.telemarket.test.UserResetPasswordTest -->
+    </classes>
+  </test> <!-- User(failed) -->
+</suite> <!-- Failed suite [ModulUserSPVSuite] -->

@@ -1,0 +1,344 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 15 08:27:36 ICT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>644 seconds (644435 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_resultBerhasil_reasonBerhasil()'><b>testNewActivity_status_resultBerhasil_reasonBerhasil</b><br>Test class: com.telemarket.test.EditDataTest</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;LAPTOP-O6UDEKEP&apos;, ip: &apos;10.0.0.79&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20c41dd365d172b7afe5caaa8732b663, clickElement {id=453a9d3c-33fd-4cfd-b19c-32987e786944}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52385/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20c41dd365d172b7afe5caaa8732b663)] -&gt; xpath: /html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div[1]/div[3]/div[2]/button]
+Session ID: 20c41dd365d172b7afe5caaa8732b663
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.telemarket.pom.page.Dashboard.clickDataAgree(Dashboard.java:84)
+	at com.telemarket.test.EditDataTest.testNewActivity_status_resultBerhasil_reasonBerhasil(EditDataTest.java:356)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace599141571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace599141571'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;LAPTOP-O6UDEKEP&apos;, ip: &apos;10.0.0.79&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20c41dd365d172b7afe5caaa8732b663, clickElement {id=453a9d3c-33fd-4cfd-b19c-32987e786944}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52385/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20c41dd365d172b7afe5caaa8732b663)] -&gt; xpath: /html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div[1]/div[3]/div[2]/button]
+Session ID: 20c41dd365d172b7afe5caaa8732b663
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.telemarket.pom.page.Dashboard.clickDataAgree(Dashboard.java:84)
+	at com.telemarket.test.EditDataTest.testNewActivity_status_resultBerhasil_reasonBerhasil(EditDataTest.java:356)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>16</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testFollowUpActivity_status_invalid()'><b>testFollowUpActivity_status_invalid</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Grand Am, Tidak Tersambung, Invalid Number, Tidak Ada Nomor Telepon, Tidak Ada Nomor Telepon</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Tidak Bersedia Memberikan Kontak Owner</td>
+<td></td>
+<td>20</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Tidak Mengenal Tokko/Bukukas</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveFollowUp()'><b>testNewActivity_status_saveFollowUp</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Follow Up, Telpon Kembali Lain Waktu</td>
+<td></td>
+<td>20</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testFollowUpActivity_status_invalid()'><b>testFollowUpActivity_status_invalid</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Ragawi, Tersambung, Diangkat, Tidak Berhasil, Tidak Berhasil</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Tidak Mengerti dan Tidak Bersedia Dijelaskan</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Usaha Sudah Tutup/Bangkrut</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Memory Handphone Penuh</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveFollowUp()'><b>testNewActivity_status_saveFollowUp</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Follow Up, Request Kirim Whatsapp Untuk Dipelajari</td>
+<td></td>
+<td>22</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Terlalu Banyak Aplikasi atau Platform</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testFollowUpActivity_status_invalid()'><b>testFollowUpActivity_status_invalid</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Grand Am, Tidak Tersambung, Telepon Not Register, Tidak Terdaftar, Tidak Terdaftar</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testFollowUpActivity_status_invalid()'><b>testFollowUpActivity_status_invalid</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Grand Am, Tidak Tersambung, Mailbox, Mailbox, Mailbox</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Tidak Fokus Online</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Rating/Comment Buruk Tokko di Sosial Media</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Tidak Punya Android</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testFollowUpActivity_status_invalid()'><b>testFollowUpActivity_status_invalid</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Grand Am, Tidak Tersambung, Nomer Salah, Nomer Salah, Nomer Salah</td>
+<td></td>
+<td>20</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testFollowUpActivity_status_invalid()'><b>testFollowUpActivity_status_invalid</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Grand Am, Tersambung, Salah Sambung, Salah Sambung, Salah Sambung</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveFollowUp()'><b>testNewActivity_status_saveFollowUp</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Follow Up, Minta Nomer Manager/Pemilik</td>
+<td></td>
+<td>21</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveFollowUp()'><b>testNewActivity_status_saveFollowUp</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Follow Up, Follow Up</td>
+<td></td>
+<td>21</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Tidak Tertarik, Tidak Memberi Alasan</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Tidak Mau Dipersulit Menggunakan Tokko</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveFollowUp()'><b>testNewActivity_status_saveFollowUp</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Follow Up, Minta Pendapat Partner/Pasangan/Orangtua</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveTolak()'><b>testNewActivity_status_saveTolak</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Tolak, Lebih Nyaman Dengan Platform Selain Tokko</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.editDataTersambungBerhasilDownload()'><b>editDataTersambungBerhasilDownload</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Setuju, Berhasil Download</td>
+<td></td>
+<td>21</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.editDataTersambungFollowUp()'><b>editDataTersambungFollowUp</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Setuju, Follow Up Download</td>
+<td></td>
+<td>21</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testFollowUpActivity_status_invalid()'><b>testFollowUpActivity_status_invalid</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Grand Am, Tersambung, Tidak Diangkat, Tidak Diangkat, Tidak Diangkat</td>
+<td></td>
+<td>19</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+<tr>
+<td title='com.telemarket.test.EditDataTest.testNewActivity_status_saveFollowUp()'><b>testNewActivity_status_saveFollowUp</b><br>Test class: com.telemarket.test.EditDataTest<br>Parameters: Tersambung, Diangkat, Follow Up, Follow Convert</td>
+<td></td>
+<td>23</td>
+<td>com.telemarket.test.EditDataTest@506ae4d4</td></tr>
+</table><p>
+</body>
+</html>

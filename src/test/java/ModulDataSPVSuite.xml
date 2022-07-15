@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ModulDataSPVSuite">
+	<test name="Data">
+		<classes>
+			<class name="com.telemarket.test.DataUploadTest"></class>
+			<class name="com.telemarket.test.DistributeDataToAgentTest"></class>
+		</classes>
+	</test>
+</suite> 

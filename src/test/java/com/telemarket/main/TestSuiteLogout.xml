@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuiteLogout">
+	<test name="Logout">
+		<classes>
+			<class name="com.telemarket.main.LogoutTest"></class>
+		</classes>
+	</test>
+</suite>

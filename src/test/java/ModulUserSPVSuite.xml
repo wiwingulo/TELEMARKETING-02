@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ModulUserSPVSuite">
+	<test name="User">
+		<classes>
+			<class name="com.telemarket.test.UserAddAgentTest"></class>
+			<class name="com.telemarket.test.UserUpdateDataTest"></class>
+			<class name="com.telemarket.test.UserUpdatePasswordAndDeleteUserTest"></class>
+			<class name="com.telemarket.test.UserResetPasswordTest"></class>
+		</classes>
+	</test>
+</suite> 	

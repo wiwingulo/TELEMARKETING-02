@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="27" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-15T08:27:36 ICT" name="Default suite" finished-at="2022-07-15T08:38:21 ICT" duration-ms="644435">
+    <groups>
+    </groups>
+    <test started-at="2022-07-15T08:27:36 ICT" name="Default test" finished-at="2022-07-15T08:38:21 ICT" duration-ms="644435">
+      <class name="com.telemarket.test.EditDataTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:27:36 ICT" name="init" finished-at="2022-07-15T08:27:40 ICT" duration-ms="3844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="editDataTersambungBerhasilDownload(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:27:40 ICT" name="editDataTersambungBerhasilDownload" data-provider="statusAct" finished-at="2022-07-15T08:28:01 ICT" duration-ms="21289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Setuju]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Berhasil Download]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editDataTersambungBerhasilDownload -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:28:01 ICT" name="init" finished-at="2022-07-15T08:28:08 ICT" duration-ms="7048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="editDataTersambungFollowUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:28:08 ICT" name="editDataTersambungFollowUp" data-provider="statusAct2" finished-at="2022-07-15T08:28:29 ICT" duration-ms="21044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Setuju]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Follow Up Download]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editDataTersambungFollowUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:28:29 ICT" name="init" finished-at="2022-07-15T08:28:32 ICT" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveFollowUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:28:32 ICT" name="testNewActivity_status_saveFollowUp" data-provider="statusFollowUp" finished-at="2022-07-15T08:28:52 ICT" duration-ms="20012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Follow Up]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Telpon Kembali Lain Waktu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveFollowUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:28:52 ICT" name="init" finished-at="2022-07-15T08:28:54 ICT" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveFollowUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:28:54 ICT" name="testNewActivity_status_saveFollowUp" data-provider="statusFollowUp" finished-at="2022-07-15T08:29:17 ICT" duration-ms="22814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Follow Up]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Request Kirim Whatsapp Untuk Dipelajari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveFollowUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:29:17 ICT" name="init" finished-at="2022-07-15T08:29:25 ICT" duration-ms="8004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveFollowUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:29:25 ICT" name="testNewActivity_status_saveFollowUp" data-provider="statusFollowUp" finished-at="2022-07-15T08:29:46 ICT" duration-ms="21667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Follow Up]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Minta Nomer Manager/Pemilik]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveFollowUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:29:46 ICT" name="init" finished-at="2022-07-15T08:29:48 ICT" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveFollowUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:29:48 ICT" name="testNewActivity_status_saveFollowUp" data-provider="statusFollowUp" finished-at="2022-07-15T08:30:08 ICT" duration-ms="19949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Follow Up]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Minta Pendapat Partner/Pasangan/Orangtua]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveFollowUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:30:08 ICT" name="init" finished-at="2022-07-15T08:30:10 ICT" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveFollowUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:30:10 ICT" name="testNewActivity_status_saveFollowUp" data-provider="statusFollowUp" finished-at="2022-07-15T08:30:32 ICT" duration-ms="21475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Follow Up]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Follow Up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveFollowUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:30:32 ICT" name="init" finished-at="2022-07-15T08:30:37 ICT" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveFollowUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:30:37 ICT" name="testNewActivity_status_saveFollowUp" data-provider="statusFollowUp" finished-at="2022-07-15T08:31:00 ICT" duration-ms="23488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Follow Up]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Follow Convert]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveFollowUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:31:00 ICT" name="init" finished-at="2022-07-15T08:31:04 ICT" duration-ms="3608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:31:04 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:31:24 ICT" duration-ms="20579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Bersedia Memberikan Kontak Owner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:31:24 ICT" name="init" finished-at="2022-07-15T08:31:26 ICT" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:31:26 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:31:46 ICT" duration-ms="19890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Fokus Online]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:31:46 ICT" name="init" finished-at="2022-07-15T08:31:49 ICT" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:31:49 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:32:09 ICT" duration-ms="19925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Tertarik, Tidak Memberi Alasan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:32:09 ICT" name="init" finished-at="2022-07-15T08:32:11 ICT" duration-ms="2250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:32:11 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:32:31 ICT" duration-ms="19904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Mengerti dan Tidak Bersedia Dijelaskan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:32:31 ICT" name="init" finished-at="2022-07-15T08:32:33 ICT" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:32:33 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:32:53 ICT" duration-ms="19929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Mengenal Tokko/Bukukas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:32:53 ICT" name="init" finished-at="2022-07-15T08:32:56 ICT" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:32:56 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:33:16 ICT" duration-ms="19943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rating/Comment Buruk Tokko di Sosial Media]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:33:16 ICT" name="init" finished-at="2022-07-15T08:33:18 ICT" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:33:18 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:33:38 ICT" duration-ms="19945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Mau Dipersulit Menggunakan Tokko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:33:38 ICT" name="init" finished-at="2022-07-15T08:33:40 ICT" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:33:40 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:34:00 ICT" duration-ms="19981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Terlalu Banyak Aplikasi atau Platform]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:34:00 ICT" name="init" finished-at="2022-07-15T08:34:03 ICT" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:34:03 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:34:23 ICT" duration-ms="19965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Memory Handphone Penuh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:34:23 ICT" name="init" finished-at="2022-07-15T08:34:25 ICT" duration-ms="1995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:34:25 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:34:44 ICT" duration-ms="19888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Punya Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:34:44 ICT" name="init" finished-at="2022-07-15T08:34:47 ICT" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:34:47 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:35:06 ICT" duration-ms="19900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lebih Nyaman Dengan Platform Selain Tokko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:35:06 ICT" name="init" finished-at="2022-07-15T08:35:08 ICT" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_saveTolak(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:35:08 ICT" name="testNewActivity_status_saveTolak" data-provider="statusTolak" finished-at="2022-07-15T08:35:28 ICT" duration-ms="19977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tolak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Usaha Sudah Tutup/Bangkrut]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_saveTolak -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:35:28 ICT" name="init" finished-at="2022-07-15T08:35:30 ICT" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testFollowUpActivity_status_invalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:35:30 ICT" name="testFollowUpActivity_status_invalid" data-provider="statusInvalid" finished-at="2022-07-15T08:35:50 ICT" duration-ms="19953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ragawi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Diangkat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Berhasil]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tidak Berhasil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFollowUpActivity_status_invalid -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:35:50 ICT" name="init" finished-at="2022-07-15T08:35:53 ICT" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testFollowUpActivity_status_invalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:35:53 ICT" name="testFollowUpActivity_status_invalid" data-provider="statusInvalid" finished-at="2022-07-15T08:36:13 ICT" duration-ms="19983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grand Am]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Salah Sambung]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Salah Sambung]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Salah Sambung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFollowUpActivity_status_invalid -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:36:13 ICT" name="init" finished-at="2022-07-15T08:36:14 ICT" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testFollowUpActivity_status_invalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:36:14 ICT" name="testFollowUpActivity_status_invalid" data-provider="statusInvalid" finished-at="2022-07-15T08:36:34 ICT" duration-ms="19930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grand Am]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tersambung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tidak Diangkat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Diangkat]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tidak Diangkat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFollowUpActivity_status_invalid -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:36:34 ICT" name="init" finished-at="2022-07-15T08:36:36 ICT" duration-ms="1852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testFollowUpActivity_status_invalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:36:36 ICT" name="testFollowUpActivity_status_invalid" data-provider="statusInvalid" finished-at="2022-07-15T08:36:56 ICT" duration-ms="20017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grand Am]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tidak Tersambung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nomer Salah]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nomer Salah]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nomer Salah]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFollowUpActivity_status_invalid -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:36:56 ICT" name="init" finished-at="2022-07-15T08:36:59 ICT" duration-ms="2342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testFollowUpActivity_status_invalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:36:59 ICT" name="testFollowUpActivity_status_invalid" data-provider="statusInvalid" finished-at="2022-07-15T08:37:19 ICT" duration-ms="19910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grand Am]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tidak Tersambung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mailbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mailbox]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mailbox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFollowUpActivity_status_invalid -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:37:19 ICT" name="init" finished-at="2022-07-15T08:37:20 ICT" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testFollowUpActivity_status_invalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:37:20 ICT" name="testFollowUpActivity_status_invalid" data-provider="statusInvalid" finished-at="2022-07-15T08:37:40 ICT" duration-ms="19955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grand Am]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tidak Tersambung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Ada Nomor Telepon]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tidak Ada Nomor Telepon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFollowUpActivity_status_invalid -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:37:40 ICT" name="init" finished-at="2022-07-15T08:37:42 ICT" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testFollowUpActivity_status_invalid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:37:42 ICT" name="testFollowUpActivity_status_invalid" data-provider="statusInvalid" finished-at="2022-07-15T08:38:02 ICT" duration-ms="19936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grand Am]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tidak Tersambung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Telepon Not Register]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tidak Terdaftar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tidak Terdaftar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFollowUpActivity_status_invalid -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:38:02 ICT" name="init" finished-at="2022-07-15T08:38:04 ICT" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewActivity_status_resultBerhasil_reasonBerhasil()[pri:6, instance:com.telemarket.test.EditDataTest@506ae4d4]" started-at="2022-07-15T08:38:04 ICT" name="testNewActivity_status_resultBerhasil_reasonBerhasil" finished-at="2022-07-15T08:38:21 ICT" duration-ms="16241" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-O6UDEKEP', ip: '10.0.0.79', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20c41dd365d172b7afe5caaa8732b663, clickElement {id=453a9d3c-33fd-4cfd-b19c-32987e786944}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52385/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20c41dd365d172b7afe5caaa8732b663)] -> xpath: /html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div[1]/div[3]/div[2]/button]
+Session ID: 20c41dd365d172b7afe5caaa8732b663]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-O6UDEKEP', ip: '10.0.0.79', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20c41dd365d172b7afe5caaa8732b663, clickElement {id=453a9d3c-33fd-4cfd-b19c-32987e786944}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52385/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20c41dd365d172b7afe5caaa8732b663)] -> xpath: /html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div[1]/div[3]/div[2]/button]
+Session ID: 20c41dd365d172b7afe5caaa8732b663
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.telemarket.pom.page.Dashboard.clickDataAgree(Dashboard.java:84)
+at com.telemarket.test.EditDataTest.testNewActivity_status_resultBerhasil_reasonBerhasil(EditDataTest.java:356)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewActivity_status_resultBerhasil_reasonBerhasil -->
+      </class> <!-- com.telemarket.test.EditDataTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
